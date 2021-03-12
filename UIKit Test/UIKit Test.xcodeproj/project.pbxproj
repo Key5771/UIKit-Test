@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EA5E942225FB0943009CF93F /* InitializeTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5E942125FB0943009CF93F /* InitializeTableView.swift */; };
 		EA8BAC7525FAF89B00326058 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8BAC7425FAF89B00326058 /* AppDelegate.swift */; };
 		EA8BAC7725FAF89B00326058 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8BAC7625FAF89B00326058 /* SceneDelegate.swift */; };
 		EA8BAC7C25FAF89B00326058 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA8BAC7A25FAF89B00326058 /* Main.storyboard */; };
@@ -41,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EA5E942125FB0943009CF93F /* InitializeTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitializeTableView.swift; sourceTree = "<group>"; };
 		EA8BAC7125FAF89B00326058 /* UIKit Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UIKit Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA8BAC7425FAF89B00326058 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EA8BAC7625FAF89B00326058 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -146,6 +148,7 @@
 			children = (
 				EA8BACAB25FAF8C300326058 /* SystemViews */,
 				EA8BACAC25FAF8C900326058 /* Control */,
+				EA5E942125FB0943009CF93F /* InitializeTableView.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -303,6 +306,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EA8BAC7F25FAF89B00326058 /* UIKit_Test.xcdatamodeld in Sources */,
+				EA5E942225FB0943009CF93F /* InitializeTableView.swift in Sources */,
 				EA8BACC625FAF9B600326058 /* ControlTableViewCell.swift in Sources */,
 				EA8BAC7525FAF89B00326058 /* AppDelegate.swift in Sources */,
 				EA8BACBC25FAF9A600326058 /* SystemTableViewCell.swift in Sources */,

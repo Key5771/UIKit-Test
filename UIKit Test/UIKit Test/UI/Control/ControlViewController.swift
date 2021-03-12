@@ -15,17 +15,11 @@ class ControlViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        initTableview()
-    }
-    
-    private func initTableview() {
+        initTableView(tableView: controlTableView, nibNameStr: "ControlTableViewCell", identifier: "ControlCell")
+        
         controlTableView.delegate = self
         controlTableView.dataSource = self
-        
-        let nibName = UINib(nibName: "ControlTableViewCell", bundle: nil)
-        controlTableView.register(nibName, forCellReuseIdentifier: "ControlCell")
     }
-
 }
 
 // MARK: - UITableViewDelegate

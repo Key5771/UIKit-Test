@@ -15,12 +15,7 @@ class SystemViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        initTableView()
-    }
-    
-    private func initTableView() {
-        let nibName = UINib(nibName: "SystemTableViewCell", bundle: nil)
-        systemTableView.register(nibName, forCellReuseIdentifier: "SystemViewCell")
+        initTableView(tableView: systemTableView, nibNameStr: "SystemTableViewCell", identifier: "SystemViewCell")
         
         systemTableView.delegate = self
         systemTableView.dataSource = self
