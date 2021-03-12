@@ -28,12 +28,14 @@ class ControlViewController: UIViewController {
 
 }
 
+// MARK: - UITableViewDelegate
 extension ControlViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
     }
 }
 
+// MARK: - UITableViewDataSource
 extension ControlViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return data.count
