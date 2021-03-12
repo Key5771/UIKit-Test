@@ -113,7 +113,7 @@
 		EA8BAC7325FAF89B00326058 /* UIKit Test */ = {
 			isa = PBXGroup;
 			children = (
-				EA8BACAA25FAF8B400326058 /* Common */,
+				EA8BACAA25FAF8B400326058 /* UI */,
 				EA8BAC7425FAF89B00326058 /* AppDelegate.swift */,
 				EA8BAC7625FAF89B00326058 /* SceneDelegate.swift */,
 				EA8BAC7825FAF89B00326058 /* ViewController.swift */,
@@ -144,13 +144,13 @@
 			path = "UIKit TestUITests";
 			sourceTree = "<group>";
 		};
-		EA8BACAA25FAF8B400326058 /* Common */ = {
+		EA8BACAA25FAF8B400326058 /* UI */ = {
 			isa = PBXGroup;
 			children = (
 				EA8BACAB25FAF8C300326058 /* SystemViews */,
 				EA8BACAC25FAF8C900326058 /* Control */,
 			);
-			path = Common;
+			path = UI;
 			sourceTree = "<group>";
 		};
 		EA8BACAB25FAF8C300326058 /* SystemViews */ = {
