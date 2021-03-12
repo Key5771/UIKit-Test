@@ -16,6 +16,12 @@
 		EA8BAC8425FAF89C00326058 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA8BAC8225FAF89C00326058 /* LaunchScreen.storyboard */; };
 		EA8BAC8F25FAF89C00326058 /* UIKit_TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8BAC8E25FAF89C00326058 /* UIKit_TestTests.swift */; };
 		EA8BAC9A25FAF89C00326058 /* UIKit_TestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8BAC9925FAF89C00326058 /* UIKit_TestUITests.swift */; };
+		EA8BACAE25FAF97000326058 /* ControlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8BACAD25FAF97000326058 /* ControlViewController.swift */; };
+		EA8BACB625FAF97E00326058 /* SystemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8BACB525FAF97E00326058 /* SystemViewController.swift */; };
+		EA8BACBC25FAF9A600326058 /* SystemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8BACBA25FAF9A600326058 /* SystemTableViewCell.swift */; };
+		EA8BACBD25FAF9A600326058 /* SystemTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA8BACBB25FAF9A600326058 /* SystemTableViewCell.xib */; };
+		EA8BACC625FAF9B600326058 /* ControlTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8BACC425FAF9B600326058 /* ControlTableViewCell.swift */; };
+		EA8BACC725FAF9B600326058 /* ControlTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA8BACC525FAF9B600326058 /* ControlTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +57,12 @@
 		EA8BAC9525FAF89C00326058 /* UIKit TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UIKit TestUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA8BAC9925FAF89C00326058 /* UIKit_TestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKit_TestUITests.swift; sourceTree = "<group>"; };
 		EA8BAC9B25FAF89C00326058 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA8BACAD25FAF97000326058 /* ControlViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlViewController.swift; sourceTree = "<group>"; };
+		EA8BACB525FAF97E00326058 /* SystemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemViewController.swift; sourceTree = "<group>"; };
+		EA8BACBA25FAF9A600326058 /* SystemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemTableViewCell.swift; sourceTree = "<group>"; };
+		EA8BACBB25FAF9A600326058 /* SystemTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SystemTableViewCell.xib; sourceTree = "<group>"; };
+		EA8BACC425FAF9B600326058 /* ControlTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlTableViewCell.swift; sourceTree = "<group>"; };
+		EA8BACC525FAF9B600326058 /* ControlTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ControlTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,8 +147,8 @@
 		EA8BACAA25FAF8B400326058 /* Common */ = {
 			isa = PBXGroup;
 			children = (
-				EA8BACAC25FAF8C900326058 /* Control */,
 				EA8BACAB25FAF8C300326058 /* SystemViews */,
+				EA8BACAC25FAF8C900326058 /* Control */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -144,6 +156,9 @@
 		EA8BACAB25FAF8C300326058 /* SystemViews */ = {
 			isa = PBXGroup;
 			children = (
+				EA8BACB525FAF97E00326058 /* SystemViewController.swift */,
+				EA8BACBA25FAF9A600326058 /* SystemTableViewCell.swift */,
+				EA8BACBB25FAF9A600326058 /* SystemTableViewCell.xib */,
 			);
 			path = SystemViews;
 			sourceTree = "<group>";
@@ -151,6 +166,9 @@
 		EA8BACAC25FAF8C900326058 /* Control */ = {
 			isa = PBXGroup;
 			children = (
+				EA8BACAD25FAF97000326058 /* ControlViewController.swift */,
+				EA8BACC425FAF9B600326058 /* ControlTableViewCell.swift */,
+				EA8BACC525FAF9B600326058 /* ControlTableViewCell.xib */,
 			);
 			path = Control;
 			sourceTree = "<group>";
@@ -258,9 +276,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA8BACBD25FAF9A600326058 /* SystemTableViewCell.xib in Resources */,
 				EA8BAC8425FAF89C00326058 /* LaunchScreen.storyboard in Resources */,
 				EA8BAC8125FAF89C00326058 /* Assets.xcassets in Resources */,
 				EA8BAC7C25FAF89B00326058 /* Main.storyboard in Resources */,
+				EA8BACC725FAF9B600326058 /* ControlTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,8 +306,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				EA8BAC7F25FAF89B00326058 /* UIKit_Test.xcdatamodeld in Sources */,
+				EA8BACC625FAF9B600326058 /* ControlTableViewCell.swift in Sources */,
 				EA8BAC7925FAF89B00326058 /* ViewController.swift in Sources */,
 				EA8BAC7525FAF89B00326058 /* AppDelegate.swift in Sources */,
+				EA8BACBC25FAF9A600326058 /* SystemTableViewCell.swift in Sources */,
+				EA8BACB625FAF97E00326058 /* SystemViewController.swift in Sources */,
+				EA8BACAE25FAF97000326058 /* ControlViewController.swift in Sources */,
 				EA8BAC7725FAF89B00326058 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
